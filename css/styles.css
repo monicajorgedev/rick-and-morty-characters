@@ -73,9 +73,26 @@ table {
 }
 
 ul {  
-  padding-top: 100px;
+  padding: 120px 15px 10px 15px;
   list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
 }
 
+li {
+  padding: 10px;
+  border: 1px solid black;
+  
+}
 
+li img {
+  width: 240px;
+  height: 240px;
+}
+
+spam {
+  font-weight: bold;
+}
 
