@@ -16,9 +16,9 @@ function pasarPagina (){
         data.results.forEach(function (personaje){
             const elementLi = document.createElement("li")
             lista.appendChild(elementLi)
-            elementLi.innerHTML =   `<img src="${personaje.image}" alt=""/>
-        <p><spam>Name: </spam>${personaje.name}</p>
-        <p><spam>Species: </spam>${personaje.species}</p>`})
+            elementLi.innerHTML = `<img src="${personaje.image}" alt=""/>
+        <p><span>Name: </span>${personaje.name}</p>
+        <p><span>Species: </span>${personaje.species}</p>`})
      
       })
       .catch((error) => {
@@ -44,6 +44,6 @@ nextPag.addEventListener('click', function (){
     const elementLi = document.createElement("li")
     lista.appendChild(elementLi)
     elementLi.innerHTML =   `<img src="${data.results[i].image}" alt=""/>
-    <p><spam>Name:</spam>${data.results[i].name}</p>
-    <p><spam>Species:</spam>${data.results[i].species}</p>`
+    <p><span>Name:</span>${data.results[i].name}</p>
+    <p><span>Species:</span>${data.results[i].species}</p>`
 }*/

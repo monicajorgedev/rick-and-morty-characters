@@ -83,7 +83,8 @@ ul {
 
 li {
   padding: 10px;
-  border: 1px solid black;
+  border: 1px solid grey;
+  border-radius: 2%;
   
 }
 
@@ -92,7 +93,7 @@ li img {
   height: 240px;
 }
 
-spam {
+span {
   font-weight: bold;
 }
 
